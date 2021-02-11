@@ -1,0 +1,132 @@
+/* CR */
+
+/* Version 1.0 */
+/* General MIT License (MIT) */
+/* Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: */
+/* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. */
+/* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
+
+body * {
+	font-family: 'IM Fell Double Pica', Georgia, Times, serif;
+	font-weight: 200;
+}
+
+#page, dialog {
+	cursor: url('https://acozar.github.io/src/cursors/cursor.png'), auto !important;
+}
+a, label, button, input, textarea {
+	cursor: url('https://acozar.github.io/src/cursors/cursorpointer.png'), auto !important;
+}
+a:active, label:active, button:active {
+	cursor: pointer;
+	cursor: url('https://acozar.github.io/src/cursors/cursorpointerred.png'), auto !important;
+}
+
+em a {
+	color: #ff2020;
+}
+em small a {
+	border-radius: 50%;
+}
+
+#site-nav, 
+#page-footer {
+	background-color: transparent;
+	border-color: transparent;
+	color: #ff2020;
+	padding: 8px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+#site-nav a {
+	border-radius: 50%;
+	color: #ff2020;
+}
+#site-nav a span {
+	display: none;
+	position: absolute;
+	top: 64px;
+	left: 0;
+	right: 0;
+}
+#site-nav a:hover span {
+	display: block;
+	
+}
+#page-main {
+	min-height: 60vh;
+}
+#page-footer p {
+	font-size: 12px;
+}
+
+/* CR Friends */
+
+.cr-friends {
+	display: block;
+	margin: 240px auto;
+	padding: 0 32px;
+	width: 100%;
+}
+.cr-friends input,
+.cr-friends button,
+.cr-friends label {
+	border: 1px solid currentColor;
+	border-radius: 32px;
+	margin: 0 auto;
+	text-align: center;
+}
+.cr-friends input {
+	padding: 32px;
+	width: 100%;
+}
+.cr-subscription {
+	color: #ff2020;
+}
+.cr-subscription:valid {
+	color: var(--color-green);
+}
+.cr-friends button {
+	display: block;
+	padding: 12px;
+	min-width: 180px;
+}
+.cr-friends label {
+	border: 1px solid transparent;
+	display: block;
+	padding: 12px;
+	width: 180px;
+}
+.cr-friends input:focus {
+	color: var(--color-green);
+}
+.cr-friends button:hover,
+.cr-friends label:hover {
+	border: 1px solid currentColor;
+	color: #ff2020;
+}
+.cr-letsgo:hover {
+	background-color: #ff2020;
+	color: #ffffff !important;
+}
+.cr-letsgo:active {
+	background-color: #ffffff;
+	color: #ff2020 !important;
+}
+#reveal-message:checked ~ #hidden-message {
+	display: block;
+}
+#reveal-message:checked ~ #label-message {
+	display: none;
+}
+
+/* CR social */
+
+.cr-social {
+
+}
+.cr-social img {
+	height: 32px;
+	opacity: .5;
+	width: 32px;
+}
