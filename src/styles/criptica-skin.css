@@ -4,9 +4,23 @@ body {
 header,
 footer,
 nav {
+    border-color: transparent;
     text-align: center;
 }
-header {
+.logo {
+    border-radius: 50%;
+    height: 92px;
+    margin: 8px 0;
+    padding: 8px 0;
+    width: 92px;
+}
+.logo img {
+    height: 92px;
+    min-width: 92px;
+    opacity: .5;
+}
+#page-header {
     color: rgba(0,0,0,.5);
-    -webkit-text-stroke: 1px rgba(240,240,240,1);
+    -webkit-text-stroke: 1px rgba(255,255,255,1);
+    padding: 8px;
 }
