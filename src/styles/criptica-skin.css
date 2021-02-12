@@ -26,14 +26,22 @@ nav {
     padding: 8px;
 }
 
-
+.streamapp {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.streamapp h4 {
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+}
 .stream {
     margin: 0 auto 128px;
-    width: 35%;
 }
-@media (max-width: 1024px) {
-    .stream {
-        width: 98%;
+@media (max-width: 768px) {
+    .streamapp {
+        display: block;
+        padding: 0 16px;
     }
 }
 .stream article {
