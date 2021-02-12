@@ -1,0 +1,12 @@
+body {
+    font-family: 'Mulish', sans-serif;
+}
+header,
+footer,
+nav {
+    text-align: center;
+}
+header {
+    color: rgba(0,0,0,.5);
+    -webkit-text-stroke: 1px rgba(240,240,240,1);
+}
