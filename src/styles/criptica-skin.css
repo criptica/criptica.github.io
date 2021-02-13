@@ -150,6 +150,8 @@ nav {
     width: 95%
 }
 
+/* Stream mediaqueries */
+
 @media (max-width: 768px) {
     .streamapp {
         grid-template-columns: 10% 80% 0%;
@@ -165,16 +167,21 @@ nav {
         margin-left: -16px;
     }
     .sections-right nav {
-        margin-left: -4px;
+        margin-left: 3px;
+        margin-right: -3px;
     }
     .sections nav li {
         padding-left: 0px;
     }
-    .sections nav li a {
-        height: 48px;
-        margin: 4px 0;
+    .sections-left nav li a {
+        height: 64px;
         padding: 8px;
-        width: 48px;
+        width: 72px;
+    }
+    .sections-right nav li a {
+        height: 64px;
+        padding: 8px;
+        width: 64px;
     }
 }
 
