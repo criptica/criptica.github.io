@@ -23,7 +23,6 @@ nav {
     opacity: .5;
 }
 #page-header {
-    color: rgba(0,0,0,.5);
     -webkit-text-stroke: 1px rgba(255,255,255,1);
     padding: 8px;
     min-height: 256px;
@@ -150,15 +149,11 @@ nav {
     .sections nav li {
         padding-left: 0px;
     }
-    .sections nav a {
+    .sections nav li a {
         height: 48px;
         margin: 4px 0;
         padding: 8px;
         width: 48px;
-    }
-    .sections nav li a:hover,
-    .sections nav li label:hover{
-        border-radius: 50%;
     }
 }
 
