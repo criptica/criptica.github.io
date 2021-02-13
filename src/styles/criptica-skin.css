@@ -42,6 +42,8 @@ nav {
     opacity: 1;
 }
 
+/* Stream */
+
 .streamapp {
     display: grid;
     grid-template-columns: 30% 40% 30%;
@@ -81,10 +83,21 @@ nav {
     margin-right: 1em;
 }
 
+
+/* Sections */
+
 .sections nav {
     text-align: left;
 }
-
+.sections nav ul {
+    margin: 0;
+}
+#hashtags-list {
+    display: none;
+}
+#hashtags:checked ~ #hashtags-list {
+    display: block;
+}
 
 @media (max-width: 768px) {
     .streamapp {
@@ -95,6 +108,7 @@ nav {
         display: none;
     }
 }
+
 /* Blogger comments */
 
 .item-body,
