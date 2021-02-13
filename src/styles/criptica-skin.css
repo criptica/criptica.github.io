@@ -47,6 +47,7 @@ nav {
 .streamapp {
     display: grid;
     grid-template-columns: 30% 40% 30%;
+    position: relative;
 }
 .streamapp h4 {
     font-size: 24px;
@@ -86,26 +87,50 @@ nav {
 
 /* Sections */
 
+.sections  {
+    -webkit-position: sticky;
+    top: 16px;
+}
 .sections nav {
     text-align: left;
 }
 .sections nav ul {
     margin: 0;
 }
-#hashtags-list {
+.sections nav label {
+    padding-left: 0px;
+}
+#hashtags-list,
+#sections-list{
     display: none;
 }
-#hashtags:checked ~ #hashtags-list {
+#hashtags:checked ~ #hashtags-list,
+#sections:checked ~ #sections-list{
     display: block;
 }
 
 @media (max-width: 768px) {
     .streamapp {
-        grid-template-columns: 10% 90% 100%;
+        grid-template-columns: 10% 80% 100%;
         padding: 0 16px;
     }
     .sections nav span {
         display: none;
+    }
+    .sections nav {
+        margin-left: -12px;
+    }
+    .sections nav li {
+        padding-left: 0px;
+    }
+    .sections nav a {
+        height: 48px;
+        margin: 4px 0;
+        padding: 8px;
+        width: 48px;
+    }
+    .sections nav li a:hover {
+        border-radius: 50%;
     }
 }
 
