@@ -143,14 +143,14 @@ nav {
 
 /* Widgets */
 
-.widgets {
+.widgets-box {
     margin: 8px 5%;
     width: 90%
 }
 
 @media (max-width: 768px) {
     .streamapp {
-        grid-template-columns: 10% 80% 10%;
+        grid-template-columns: 10% 80% 0%;
         padding: 0 16px;
     }
     .widgets-box {
