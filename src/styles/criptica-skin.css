@@ -12,20 +12,26 @@ nav {
 }
 .logo {
     border-radius: 50%;
-    height: 92px;
+    height: 72px;
     margin: 8px 0;
     padding: 8px 0;
-    width: 92px;
+    width: 72px;
 }
 .logo img {
-    height: 92px;
-    min-width: 92px;
+    height: 72px;
+    min-width: 72px;
     opacity: .5;
 }
 #page-header {
     -webkit-text-stroke: 1px rgba(255,255,255,1);
-    padding: 8px;
-    min-height: 256px;
+    padding: 64px 0 8px;
+}
+#site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 .image-bg {
     background-size: cover;
@@ -101,7 +107,7 @@ nav {
 
 .sections nav {
     position: sticky;
-    top: 16px;
+    top: 64px;
     left: 4px;
     margin-right: 4px;
 }
