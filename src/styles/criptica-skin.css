@@ -87,7 +87,7 @@ nav {
 
 /* Sections */
 
-.sections  {
+.sections  nav {
     -webkit-position: sticky;
     top: 16px;
 }
