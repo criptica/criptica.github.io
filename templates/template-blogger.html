@@ -88,6 +88,11 @@
 								<a href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><img src="<$BlogItemUrl$>" alt="Picture"></a>
 								<h3><a href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
 								<strong><$BlogItemDateTime$></strong>
+								<footer>
+									<BlogItemCommentsEnabled>
+		        						 <a href="<$BlogItemCommentCreate$>"><span><$I18NNumComments$></span></a>
+										</BlogItemCommentsEnabled>
+								</footer>
 							</article>
 							</Blogger>
 						</div>
@@ -146,24 +151,24 @@
 						<div class="item-body">
 							<$BlogItemBody$>
 						</div>
-						<div class="item-footer">
-							<BlogItemCommentsEnabled>
-	   						<a href="<$BlogItemCommentCreate$>" 
-	   							<$BlogItemCommentFormOnClick$>>
-	   							<$BlogItemCommentCount$> comentaris
-	   						</a>
-							</BlogItemCommentsEnabled>
-						</div>
+						<hr>
 						<div class="item-comments">
-							<BlogItemCommentsEnabled>
-							   <h4><$BlogItemCommentCount$> Comentaris:</h4>
-							   <BlogItemComments>
-							      <a name="<$BlogCommentNumber$>"></a>
-							      <p class="comment-body"><$BlogCommentBody$></p>
-							      <p class="comment-data">Por <$BlogCommentAuthor$>,  <a href="#<$BlogCommentNumber$>"><$BlogCommentDateTime$></a><$BlogCommentDeleteIcon$></p>
-							   </BlogItemComments>
-							   <p><a href="<$BlogItemCommentCreate$>" <$BlogItemCommentFormOnClick$>>Publicar un comentario</a></p>
-							</BlogItemCommentsEnabled>
+							<BlogItemCommentsEnabled>									
+							        <h4 id="comments"><$I18NNumComments$>:</h4>
+										<$CommentPager$>
+										<BlogItemComments>
+										<div class="comment">
+											<h5 id="<$BlogCommentAnchorName$>"><$I18NCommentAuthorSaid$></h5>
+											<p><$BlogCommentBody$></p>
+											<strong><$I18NAtCommentTimeWithPermalink$></strong>
+											<$BlogCommentDeleteIcon$>
+										</div>
+										</BlogItemComments>
+							    		<$CommentPager$>
+									<hr>
+									<$BlogItemCreate$>
+									<hr>
+							</BlogItemCommentsEnabled>	
 						</div>
 					</div>
 					</Blogger>

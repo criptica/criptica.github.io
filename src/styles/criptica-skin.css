@@ -1,3 +1,5 @@
+/* Criptica skin */
+
 body {
     font-family: 'Mulish', sans-serif;
 }
@@ -76,3 +78,35 @@ nav {
     border-top-right-radius: 24px;
     overflow: hidden;  
 }
+
+/* Blogger comments */
+
+.item-body,
+.item-comments{
+   margin: 16px auto;
+   width: 90%;
+
+}
+.comment {
+    border: 1px solid currentColor;
+    border-radius: 16px;
+    margin: 16px auto;
+    padding: 8px;
+}
+.comment h5 {
+    border-bottom: 1px solid currentColor;
+    padding: 8px 0;
+}
+.comment p {
+    margin: 16px 0;
+}
+.comment strong {
+    font-weight: bold;
+}
+.comment-icon {
+    display: none;
+}
+
+
+
+/* The End */
