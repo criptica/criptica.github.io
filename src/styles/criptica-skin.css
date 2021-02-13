@@ -166,17 +166,13 @@ nav {
     .sections-left nav {
         margin-left: -16px;
     }
-    .sections-right nav {
-        margin-left: 3px;
-        margin-right: -3px;
-    }
     .sections nav li {
         padding-left: 0px;
     }
     .sections-left nav li a {
         height: 64px;
         padding: 8px;
-        width: 72px;
+        width: 62px;
     }
     .sections-right nav li a {
         height: 64px;
