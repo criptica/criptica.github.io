@@ -68,6 +68,7 @@ nav {
     border: 1px solid rgba(0,0,0,.1);
     overflow: hidden;
     padding: 0;
+    z-index: 5;
 }
 .stream article h3 {
     margin: 16px 0 0;
@@ -145,6 +146,7 @@ nav {
 
 .widgets-box {
     margin: 8px 1% 8px 4%;
+    overflow: hidden;
     width: 95%
 }
 
@@ -163,7 +165,7 @@ nav {
         margin-left: -16px;
     }
     .sections-right nav {
-        margin-left: 4px;
+        margin-left: -4px;
     }
     .sections nav li {
         padding-left: 0px;
