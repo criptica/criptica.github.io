@@ -144,8 +144,8 @@ nav {
 /* Widgets */
 
 .widgets-box {
-    margin: 8px 5%;
-    width: 90%
+    margin: 8px 1% 8px 4%;
+    width: 95%
 }
 
 @media (max-width: 768px) {
@@ -160,7 +160,10 @@ nav {
         display: none;
     }
     .sections-left nav {
-        margin-left: -20px;
+        margin-left: -16px;
+    }
+    .sections-right nav {
+        margin-left: 12px;
     }
     .sections nav li {
         padding-left: 0px;
