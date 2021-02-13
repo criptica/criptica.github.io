@@ -111,8 +111,6 @@ nav {
     top: 64px;
     left: 4px;
     margin-right: 4px;
-}
-.sections nav {
     text-align: left;
 }
 .sections nav ul {
@@ -166,18 +164,20 @@ nav {
     .sections-left nav {
         margin-left: -16px;
     }
+    .sections-right nav {
+        margin-left: 4px;
+    }
     .sections nav li {
         padding-left: 0px;
     }
     .sections-left nav li a {
         height: 64px;
         padding: 8px;
-        width: 62px;
     }
     .sections-right nav li a {
-        height: 64px;
-        padding: 8px;
-        width: 64px;
+        height: 60px;
+        padding: 8px 4px;
+        width: 48px;
     }
 }
 
