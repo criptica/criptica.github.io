@@ -91,6 +91,7 @@ nav {
     position: sticky;
     top: 16px;
     left: 4px;
+    margin-right: 4px;
 }
 .sections nav {
     text-align: left;
