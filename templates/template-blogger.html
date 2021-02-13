@@ -76,6 +76,19 @@
 					<p><$BlogDescription$></p>
 				</div>
 			</header>
+			</MainOrArchivePage>
+			<ItemPage>
+			<header id="page-header">
+				<Blogger><span class="image-bg" style="background-image: url('<$BlogItemUrl$>');"></span></Blogger>
+				<div>
+					<div class="prev-next anm-fadeIn delay-3000"><$BlogPaginationLinks$></div>
+					<Blogger>
+					<h1><$BlogItemTitle$> </h1>
+					<p><$BlogItemDateTime$></p>
+					</Blogger>
+				</div>
+			</header>
+			</ItemPage>
 			<main id="page-main">
 				<div>
 					<div id="layout" class="streamapp">
@@ -115,10 +128,11 @@
 								</ul>
 							</nav>
 						</div>
+						<MainOrArchivePage>
 						<div class="stream">
 							<Blogger>
 							<article id="<$BlogItemNumber$>">
-								<a href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><img src="<$BlogItemUrl$>" alt="Picture"></a>
+								<a class="thumb" href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><img src="<$BlogItemUrl$>" alt="Picture"></a>
 								<h3><a href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
 								<strong><$BlogItemDateTime$></strong>
 								<footer>
@@ -131,56 +145,46 @@
 							</Blogger>
 							<nav class="pagination"><$BlogPaginationLinks$></nav>
 						</div>
-						<div class="">
-							<h4>Destacados</h4>
+						</MainOrArchivepage>
+						<ItemPage>
+						<div class="stream">
+							<Blogger>
+							<div id="<$BlogItemNumber$>" class="">
+								<div class="item-body">
+									<$BlogItemBody$>
+								</div>
+								<hr>
+								<div class="item-comments">
+									<BlogItemCommentsEnabled>									
+									        <h4 id="comments"><$I18NNumComments$>:</h4>
+												<$CommentPager$>
+												<BlogItemComments>
+												<div class="comment">
+													<h5 id="<$BlogCommentAnchorName$>"><$I18NCommentAuthorSaid$></h5>
+													<p><$BlogCommentBody$></p>
+													<strong><$I18NAtCommentTimeWithPermalink$></strong>
+													<$BlogCommentDeleteIcon$>
+												</div>
+												</BlogItemComments>
+									    		<$CommentPager$>
+											<hr>
+											<$BlogItemCreate$>
+											<hr>
+									</BlogItemCommentsEnabled>	
+								</div>
+							</div>
+							</Blogger>
+							<nav class="pagination"><$BlogPaginationLinks$></nav>
+						</div>
+						</ItemPage>
+						<div class="widgets">
+							<script type="text/javascript">
+							crypt_multi_num_cur = "2";
+							crypt_base_cur_0 = "Bitcoin (BTC)";crypt_target_cur_0 = "US Dollar (USD)";crypt_base_cur_1 = "Bitcoin (BTC)";crypt_target_cur_1 = "Euro (EUR)";crypt_multi_border_color = "currentColor";crypt_multi_font_family = "Sans-Serif";crypt_multi_font_color = "currentColor";</script><script type="text/javascript" src="https://www.cryptonator.com/ui/js/widget/multi_widget.js"></script>
 						</div>
 					</div>
 				</div>
 			</main>
-			</MainOrArchivePage>
-			
-			<ItemPage>
-			<header id="page-header">
-				<Blogger><span class="image-bg" style="background-image: url('<$BlogItemUrl$>');"></span></Blogger>
-				<div>
-					<div class="prev-next anm-fadeIn delay-3000"><$BlogPaginationLinks$></div>
-					<Blogger>
-					<h1><$BlogItemTitle$> </h1>
-					<p><$BlogItemDateTime$></p>
-					</Blogger>
-				</div>
-			</header>
-			<main id="page-main">
-				<div>
-					<Blogger>
-					<div id="<$BlogItemNumber$>" class="">
-						<div class="item-body">
-							<$BlogItemBody$>
-						</div>
-						<hr>
-						<div class="item-comments">
-							<BlogItemCommentsEnabled>									
-							        <h4 id="comments"><$I18NNumComments$>:</h4>
-										<$CommentPager$>
-										<BlogItemComments>
-										<div class="comment">
-											<h5 id="<$BlogCommentAnchorName$>"><$I18NCommentAuthorSaid$></h5>
-											<p><$BlogCommentBody$></p>
-											<strong><$I18NAtCommentTimeWithPermalink$></strong>
-											<$BlogCommentDeleteIcon$>
-										</div>
-										</BlogItemComments>
-							    		<$CommentPager$>
-									<hr>
-									<$BlogItemCreate$>
-									<hr>
-							</BlogItemCommentsEnabled>	
-						</div>
-					</div>
-					</Blogger>
-				</div>
-			</main>
-			</ItemPage>
 			
 			<footer id="page-footer">
 				<div>
