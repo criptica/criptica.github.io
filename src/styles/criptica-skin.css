@@ -76,12 +76,25 @@ nav {
     overflow: hidden;  
 }
 .stream article footer {
+    border-top: 1px solid currentColor;
     font-size: 12px;
     margin: 16px 0 0;
-    padding: 8px;
+    padding: 4px 0;
 }
 .stream article footer a {
-    margin-right: 1em;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    display: inline-block;
+    height: 36px;
+    margin-right: 2em;
+    padding: 4px;
+    width: 36px;
+}
+.stream article footer a:hover {
+    border: 1px solid currentColor;
+}
+.stream article footer svg {
+    width: 18px;
 }
 
 
