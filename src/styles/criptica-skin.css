@@ -54,12 +54,6 @@ nav {
 .stream {
     margin: 0 auto 128px;
 }
-@media (max-width: 768px) {
-    .streamapp {
-        display: block;
-        padding: 0 16px;
-    }
-}
 .stream article {
     border-radius: 24px;
     box-shadow: 0px 0px 8px rgba(0,0,0,.6);
@@ -87,6 +81,20 @@ nav {
     margin-right: 1em;
 }
 
+.sections nav {
+    text-align: left;
+}
+
+
+@media (max-width: 768px) {
+    .streamapp {
+        grid-template-columns: 10% 90% 100%;
+        padding: 0 16px;
+    }
+    .sections nav span {
+        display: none;
+    }
+}
 /* Blogger comments */
 
 .item-body,
