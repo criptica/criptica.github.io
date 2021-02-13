@@ -87,9 +87,10 @@ nav {
 
 /* Sections */
 
-.sections  nav {
-    -webkit-position: sticky;
+.sections nav {
+    position: sticky;
     top: 16px;
+    left: 4px;
 }
 .sections nav {
     text-align: left;
