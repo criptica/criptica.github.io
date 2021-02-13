@@ -103,11 +103,13 @@ nav {
     padding-left: 0px;
 }
 #hashtags-list,
-#sections-list{
+#sections-list,
+#configuration-list{
     display: none;
 }
 #hashtags:checked ~ #hashtags-list,
-#sections:checked ~ #sections-list{
+#sections:checked ~ #sections-list,
+#configuration:checked ~ #configuration-list{
     display: block;
 }
 
