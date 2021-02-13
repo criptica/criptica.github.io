@@ -65,7 +65,7 @@ nav {
     box-shadow: 0px 0px 8px rgba(0,0,0,.6);
     border: 1px solid rgba(0,0,0,.1);
     overflow: hidden;
-    padding: 0 0 32px;
+    padding: 0;
 }
 .stream article h3 {
     margin: 16px 0 0;
@@ -77,6 +77,14 @@ nav {
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     overflow: hidden;  
+}
+.stream article footer {
+    font-size: 12px;
+    margin: 16px 0 0;
+    padding: 8px;
+}
+.stream article footer a {
+    margin-right: 1em;
 }
 
 /* Blogger comments */
