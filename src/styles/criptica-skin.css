@@ -159,8 +159,8 @@ nav {
     .sections nav span {
         display: none;
     }
-    .sections nav {
-        margin-left: -12px;
+    .sections-left nav {
+        margin-left: -20px;
     }
     .sections nav li {
         padding-left: 0px;
