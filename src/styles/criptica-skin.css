@@ -23,12 +23,17 @@ nav {
     opacity: .5;
 }
 #page-header {
-    padding: 64px 0 8px;
+    padding: 64px 0;
 }
 #page-header h1 {
     -webkit-text-stroke: 1px rgba(255,255,255,1);
     margin: 64px auto;
     padding: 0 10%;
+}
+#page-header p {
+    background: rgba(255,255,255,.5);
+    margin: 0 auto 32px;
+    width: 320px;
 }
 #site-nav {
     position: fixed;
@@ -42,7 +47,7 @@ nav {
         padding: 16px 0 8px;
     }
     #site-nav {
-        position: relative;
+        position: absolute;
     }
 }
 .image-bg {
@@ -54,7 +59,6 @@ nav {
     left: 0;
     right: 0;
     bottom: 0;
-
     opacity: .5;
 }
 
@@ -62,7 +66,8 @@ nav {
 
 .streamapp {
     display: grid;
-    grid-template-columns: 30% 40% 30%;
+    grid-template-columns: 20% 60% 20%;
+    margin: -64px 0 0;
     min-height: 100%;
     position: relative;
 }
@@ -122,6 +127,7 @@ nav {
 .sections nav {
     position: sticky;
     top: 64px;
+    margin-top: 32px;
     text-align: left;
 }
 .sections nav ul {
@@ -161,6 +167,17 @@ nav {
 
 /* Stream mediaqueries */
 
+@media (max-width: 1024px) {
+    .streamapp {
+        grid-template-columns: 25% 50% 25%;
+        padding: 0 16px;
+    }
+    .sections nav label,
+    .sections nav a {
+        font-size: 12px;
+        line-height: 48px;
+    }
+}
 @media (max-width: 768px) {
     .sections nav {
         top: 20px;
@@ -303,9 +320,9 @@ nav {
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
-    background: rgba(0,0,0,.1);
 	border: 3px solid currentColor;
 	border-radius: 50%;
+	color: #aaa;
 	display: block;
 	font-size: 1.2em;
 	font-weight: bold;
