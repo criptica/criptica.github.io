@@ -163,6 +163,9 @@ nav {
     .sections-left nav {
         margin-left: -16px;
     }
+    .sections-right nav {
+        margin-left: 16px;
+    }
     .sections nav ul,
     .sections nav li{
         padding-left: 0px;
@@ -176,15 +179,18 @@ nav {
     .sections nav li label {
         padding: 16px 0px;
     }
-}
-@media (max-width: 768px) {
     .sections nav li a,
     .sections nav li label {
-        height: 64px;
-        width: 48px;
+
     }
-    .sections-right nav {
-        margin-left: 2px;
+}
+@media (max-width: 480px) {
+    .streamapp {
+        grid-template-columns: 18% 82% 0;
+        padding: 0 16px;
+    }
+    .sections-right {
+        display: none;
     }
 }
 
