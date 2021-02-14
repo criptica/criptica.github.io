@@ -109,8 +109,6 @@ nav {
 .sections nav {
     position: sticky;
     top: 64px;
-    left: 4px;
-    margin-right: 4px;
     text-align: left;
 }
 .sections nav ul {
@@ -152,7 +150,7 @@ nav {
 
 @media (max-width: 768px) {
     .streamapp {
-        grid-template-columns: 10% 80% 0%;
+        grid-template-columns: 12% 74% 12%;
         padding: 0 16px;
     }
     .widgets-box {
@@ -165,19 +163,30 @@ nav {
         margin-left: -16px;
     }
     .sections-right nav {
-        margin-left: 4px;
+        margin-left: 16px;
     }
-    .sections nav li {
+    .sections nav ul,
+    .sections nav li{
         padding-left: 0px;
     }
-    .sections-left nav li a {
-        height: 64px;
-        padding: 8px;
-    }
-    .sections-right nav li a {
+    .sections nav li a,
+    .sections nav li label {
         height: 60px;
-        padding: 8px 4px;
+        padding: 16px 8px;
+        width: 60px;
+    }
+    .sections nav li label {
+        padding: 16px 0px;
+    }
+}
+@media (max-width: 768px) {
+    .sections nav li a,
+    .sections nav li label {
+        height: 64px;
         width: 48px;
+    }
+    .sections-right nav {
+        margin-left: 2px;
     }
 }
 
