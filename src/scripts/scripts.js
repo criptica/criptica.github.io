@@ -41,3 +41,27 @@ $(function(){
 $('.copyonclipboard').click(function(){
   $(this).CopyToClipboard();
 });
+
+
+/* Themes */
+
+    var thehours = new Date().getHours();
+
+	var themessage;
+
+	if (thehours >= 0 && thehours < 6) {
+		$( "#theme-nox" ).prop('checked', true );
+
+	} else if (thehours >= 6 && thehours < 12) {
+		$( "#theme-aurora" ).prop('checked', true );
+
+	} else if (thehours >= 12 && thehours < 18) {
+		$( "#theme-meridianus" ).prop('checked', true );
+		
+	} else if (thehours >= 18 && thehours < 20) {
+		$( "#theme-vesperum" ).prop('checked', true );
+		
+	} else if (thehours >= 20 && thehours < 24) {
+		$( "#theme-nox" ).prop('checked', true );
+		
+	}
