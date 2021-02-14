@@ -325,6 +325,12 @@ nav {
 	top: -.15em;
 	z-index: 1;
 }
+@media (max-width: 1024px) {
+    .prev-next,
+    .prev-next .blog-paging-control-container {
+        top: 16px;
+    }
+}
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1),
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2) {
 	visibility: hidden;
