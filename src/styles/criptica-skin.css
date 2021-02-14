@@ -42,6 +42,9 @@ nav {
     right: 0;
     z-index: 1;
 }
+#page-footer div {
+    padding: 0 5%;
+}
 @media (max-width: 768px) {
     #page-header {
         padding: 16px 0 8px;
