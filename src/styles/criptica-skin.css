@@ -52,6 +52,7 @@ nav {
 .streamapp {
     display: grid;
     grid-template-columns: 30% 40% 30%;
+    min-height: 100%;
     position: relative;
 }
 .streamapp h4 {
