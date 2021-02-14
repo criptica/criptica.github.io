@@ -195,6 +195,12 @@ nav {
         font-size: 12px;
         line-height: 48px;
     }
+    .stream article h3 {
+        margin: 16px 4px 0;
+    }
+    .stream article strong {
+        margin: 16px 4px;    
+    }
 }
 @media (max-height: 768px) {
     .stream article {
@@ -241,7 +247,7 @@ nav {
 }
 @media (max-width: 480px) {
     .streamapp {
-        grid-template-columns: 18% 82% 0;
+        grid-template-columns: 16% 84% 0;
         padding: 0 16px;
     }
     .sections-right {
