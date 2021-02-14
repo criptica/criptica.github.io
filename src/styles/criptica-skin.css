@@ -191,6 +191,11 @@ nav {
         line-height: 48px;
     }
 }
+@media (max-height: 768px) {
+    .stream article {
+        max-width: 360px
+    }
+}
 @media (max-width: 768px) {
     .sections nav {
         top: 20px;
