@@ -66,8 +66,10 @@
 			<header id="page-header">
 				<span class="image-bg" style="background-image: url('{{ post.img }}');"></span>
 				<div>
+					{% for post in site.posts %}
 					<h1>{{ post.title }} </h1>
 					<p>{{ post.date | date: "%B %e, %Y" }}</p>
+					{% endfor %}
 			</header>
 
 			<main id="page-main">
