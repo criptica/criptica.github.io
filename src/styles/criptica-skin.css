@@ -303,9 +303,9 @@ nav {
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
+    background: rgba(0,0,0,.1);
 	border: 3px solid currentColor;
 	border-radius: 50%;
-	color: #aaa;
 	display: block;
 	font-size: 1.2em;
 	font-weight: bold;
