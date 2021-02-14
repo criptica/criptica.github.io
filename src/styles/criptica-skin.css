@@ -158,6 +158,9 @@ nav {
 /* Stream mediaqueries */
 
 @media (max-width: 768px) {
+    .sections nav {
+        top: 20px;
+    }
     .streamapp {
         grid-template-columns: 12% 76% 12%;
         padding: 0 16px;
