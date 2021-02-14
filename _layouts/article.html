@@ -64,12 +64,13 @@
 			</nav>
 			
 			<header id="page-header">
+				{% for post in site.posts %}
 				<span class="image-bg" style="background-image: url('{{ post.img }}');"></span>
 				<div>
-					{% for post in site.posts %}
 					<h1>{{ post.title }} </h1>
 					<p>{{ post.date | date: "%B %e, %Y" }}</p>
-					{% endfor %}
+				</div>
+				{% endfor %}
 			</header>
 
 			<main id="page-main">
