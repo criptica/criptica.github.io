@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<!-- Metadata -->
-		<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+		<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ post.title }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="{{ site.name }}" />
+        <meta name="author" content="{{ site.name }}">
         <meta name="description" content="{{ site.description }}">
 		<meta name="keywords" content="Bitcoin, P2P, Open Source, Comunidad, Libertad">
 		<!-- Metadata: GeoTags -->
@@ -17,9 +17,9 @@
 		<!-- Metadata: Twitter Cards -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@cripticanet">
-		<meta name="twitter:title" content="{{ site.name }} ">
-		<meta name="twitter:description" content="{{ site.description }}">
-		<meta name="twitter:image" content="https://criptica.github.io/src/ics/icon.png">
+		<meta name="twitter:title" content="{{ post.title }}">
+		<meta name="twitter:description" content="{{ post.url }}">
+		<meta name="twitter:image" content="{{ post.img }}">
 		
 		<!-- Screen styles -->
 		<link href="https://criptica.github.io/src/styles/screen.components.min.css" rel="stylesheet" media="screen">
@@ -63,10 +63,10 @@
 			</nav>
 			
 			<header id="page-header">
+				<span class="image-bg" style="background-image: url('{{ post.img }}');"></span>
 				<div>
-					<h1>{{ site.name }}</h1>
-					<p>{{ site.description }}</p>
-				</div>
+					<h1>{{ post.title }} </h1>
+					<p>{{ post.date | date: "%B %e, %Y" }}</p>
 			</header>
 
 			<main id="page-main">
