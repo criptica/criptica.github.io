@@ -33,6 +33,14 @@ nav {
     right: 0;
     z-index: 1;
 }
+@media (max-width: 768px) {
+    #page-header {
+        padding: 16px 0 8px;
+    }
+    #site-nav {
+        position: relative;
+    }
+}
 .image-bg {
     background-size: cover;
     background-position: center;
