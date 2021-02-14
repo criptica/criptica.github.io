@@ -242,7 +242,7 @@ nav {
     .sections nav li label {
         height: 60px;
         padding: 16px 8px;
-        width: 60px;
+        width: 48px;
     }
     .sections nav li label {
         padding: 16px 0px;
@@ -254,7 +254,7 @@ nav {
 }
 @media (max-width: 480px) {
     .streamapp {
-        grid-template-columns: 16% 84% 0;
+        grid-template-columns: 10% 92% 0;
         padding: 0 16px;
     }
     .sections-right {
