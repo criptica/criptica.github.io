@@ -46,6 +46,11 @@ nav {
     #page-header {
         padding: 16px 0 8px;
     }
+    #page-header h1 {
+        font-size: 32px;
+        line-height: 48px;
+        margin: 104px 0 72px;
+    }
     #site-nav {
         position: absolute;
     }
@@ -59,7 +64,7 @@ nav {
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: .5;
+    opacity: .4;
 }
 
 /* Stream */
@@ -329,6 +334,12 @@ nav {
     .prev-next,
     .prev-next .blog-paging-control-container {
         top: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .prev-next,
+    .prev-next .blog-paging-control-container {
+        top: 48px;
     }
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1),
