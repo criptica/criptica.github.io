@@ -208,15 +208,17 @@ nav {
 
 /* Stream mediaqueries */
 
-@media (max-width: 1024px) {
-    .streamapp {
-        grid-template-columns: 25% 50% 25%;
-        padding: 0 16px;
-    }
+@media (max-width: 1200px) {
     .sections nav label,
     .sections nav a {
         font-size: 12px;
         line-height: 48px;
+    }  
+}
+@media (max-width: 1024px) {
+    .streamapp {
+        grid-template-columns: 25% 50% 25%;
+        padding: 0 16px;
     }
     .stream article h3 {
         margin: 16px 4px 0;
