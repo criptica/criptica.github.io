@@ -41,11 +41,7 @@ $(function(){
 
 $('.copyonclipboard').click(function(){
   $(this).CopyToClipboard();
-  $("#notification-copied").show();
-});
-
-$(function() {
-    $('#notification-copied').delay(300).fadeOut(300);
+  $("#notification-copied").show().delay(5000).fadeOut();
 });
 
 /* Themes */
