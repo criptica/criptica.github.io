@@ -210,6 +210,20 @@ nav {
     min-width: 110%;  
 }
 
+/* Notification */
+
+.notification {
+    background-color: rgba(255,255,255,.5);
+    border-radius: 12px;
+    display: none;
+    padding: 12px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 25%;
+    left: 25%;
+}
+
 /* Widgets */
 
 .widgets-box {
