@@ -38,6 +38,7 @@ $(function(){
     });
 });
 
+
 $('.copyonclipboard').click(function(){
   $(this).CopyToClipboard();
   $("#notification-copied").show();
