@@ -44,11 +44,7 @@ $('.copyonclipboard').click(function(){
   $("#notification-copied").show();
 });
 
-$(function() {
-    setTimeout(function() {
-        $("#notification-copied").hide('blind', {}, 200)
-    }, 5000);
-});
+$('#notification-copied').empty().show().html(message).delay(300).fadeOut(300);
 
 /* Themes */
 
