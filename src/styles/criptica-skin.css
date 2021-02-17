@@ -436,9 +436,10 @@ nav {
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
-    background-color: rgba(255,255,255,2);
+    background-color: rgba(255,255,255,.2);
 	border: 3px solid currentColor;
 	border-radius: 50%;
+    color: currentColor;
 	display: block;
 	font-size: 1.2em;
 	font-weight: bold;
@@ -450,6 +451,10 @@ nav {
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):hover:after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):hover:after {
 	transform: scale(1.2);
+}
+.prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):visited:after,
+.prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):visited:after {
+    opacity: .8;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after {
 	content: '<';
