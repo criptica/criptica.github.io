@@ -132,13 +132,14 @@ nav {
     border-top-right-radius: 24px;
     overflow: hidden;  
 }
-.stream article footer {
-    border-top: 1px solid currentColor;
+.stream article footer,
+.share-box {
     font-size: 12px;
     margin: 16px 0 0;
     padding: 4px 0;
 }
-.stream article footer a {
+.stream article footer a,
+.share-box a {
     border: 1px solid transparent;
     border-radius: 50%;
     display: inline-block;
@@ -147,10 +148,12 @@ nav {
     padding: 4px;
     width: 36px;
 }
-.stream article footer a:hover {
+.stream article footer a:hover,
+.share-box a:hover {
     border: 1px solid currentColor;
 }
-.stream article footer svg {
+.stream article footer svg,
+.share-box svg {
     width: 18px;
 }
 
