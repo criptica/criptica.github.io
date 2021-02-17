@@ -68,12 +68,12 @@ nav {
 }
 @media (max-width: 768px) {
     #page-header {
-        padding: 16px 0 8px;
+        padding: 32px 0;
     }
     #page-header h1 {
         font-size: 32px;
         line-height: 32px;
-        margin: 104px 0 72px;
+        margin: 128px 0 72px;
     }
     #site-nav {
         position: absolute;
@@ -397,7 +397,7 @@ nav {
 .prev-next,
 .prev-next .blog-paging-control-container  {
 	position: absolute;
-    top: 0;
+    top: 16px;
 	left: 0;
 	right: 0;
 	width: 100%;
@@ -415,7 +415,7 @@ nav {
 @media (max-width: 768px) {
     .prev-next,
     .prev-next .blog-paging-control-container {
-        top: 24px;
+        top:32px;
     }
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1),
