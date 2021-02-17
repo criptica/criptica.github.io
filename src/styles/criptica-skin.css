@@ -326,27 +326,34 @@ nav {
 .card-app {
     background: rgba(255,255,255,.5);
     border-radius: 24px;
-    box-shadow: 0px 0px 6px rgba(0,0,0,.6);
+    box-shadow: 0px 0px 6px rgba(0,0,0,.6), inset 0 -128px 24px rgba(255,255,255,0.3);;
     display: block;
-    height: 200px;
+    min-height: 180px;
     padding: 12px;
 }
 .card-app img {
+    display: block;
     float: left;
+    margin: 0 32px 0 0;
     height: 128px;
     width: 128px;
 }
 .card-app figcaption {
     display: block;
-    font-size: 24px;
+    font-size: 32px;
     margin: 32px 0;
     position: relative;
     text-align: left;
 }
 @media (max-width: 768px) {
     .card-app img {
-        height: 64px;
-        width: 64px;
+        float: none;
+        margin: 0 auto;
+        height: 92px;
+        width: 92px;
+    }
+    .card-app figcaption {
+        text-align: center;
     }
 }
 
