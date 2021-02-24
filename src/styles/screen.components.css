@@ -1240,9 +1240,9 @@ a:visited:active {
     --color-starredmeridianus: rgba(168, 47, 47, 1);
 	
 	/* vesperum Theme */
-    --color-bgvesperum: rgba(173,195,153, 1);
-    --color-textvesperum: rgba(0, 6, 30, 1);
-    --color-starredvesperum: rgba(102, 2, 60, 1);
+    --color-bgvesperum: rgba(1, 19, 5, 1);
+    --color-textvesperum: rgba(130, 182, 119, 1);
+    --color-starredvesperum: rgba(43, 133, 1, 1);
 	
 	/* Overlays */
 	--color-translucentblack: rgba(0,0,0,.5);
