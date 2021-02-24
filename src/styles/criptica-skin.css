@@ -139,7 +139,8 @@ nav {
 .stream article img {
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
-    overflow: hidden;  
+    overflow: hidden;
+    width: 100%;
 }
 .stream article footer,
 .share-box {
