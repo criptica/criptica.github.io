@@ -27,6 +27,9 @@ nav {
     min-width: 72px;
     opacity: .5;
 }
+.logo:hover img {
+    transform: scale(1.2);
+}
 #page-header {
     padding: 64px 0;
 }
@@ -161,6 +164,10 @@ nav {
 .stream article footer svg,
 .share-box svg {
     width: 18px;
+}
+.stream article footer a:hover svg,
+.share-box a:hover svg {
+    transform: scale(1.4);
 }
 
 
