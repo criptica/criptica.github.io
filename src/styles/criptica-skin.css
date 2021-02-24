@@ -361,10 +361,10 @@ nav {
 /* Post variations */
 
 .card-app {
-    background: rgba(255,255,255,.5);
+    background: rgba(255,255,255,.2);
     border-radius: 24px;
-    -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,.6), inset 0 -128px 24px rgba(255,255,255,0.3);
-            box-shadow: 0px 0px 6px rgba(0,0,0,.6), inset 0 -128px 24px rgba(255,255,255,0.3);;
+    -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,.2), inset 0 -32px 24px rgba(255,255,255,0.3);
+            box-shadow: 0px 0px 6px rgba(0,0,0,.2), inset 0 -32px 24px rgba(255,255,255,0.3);;
     display: block;
     min-height: 180px;
     padding: 12px;
