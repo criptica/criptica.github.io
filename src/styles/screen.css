@@ -1238,7 +1238,7 @@ a:visited:active {
 	/* vesperum Theme */
     --color-bgvesperum: rgba(1, 19, 5, 1);
     --color-textvesperum: rgba(130, 182, 119, 1);
-    --color-starredvesperum: rgba(43, 133, 1, 1);
+    --color-starredvesperum: rgba(205, 255, 182, 1);
 	
 	/* Overlays */
 	--color-translucentblack: rgba(0,0,0,.5);
