@@ -99,9 +99,7 @@ nav {
 /* Stream */
 
 .streamapp {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 20% 60% 20%;
     grid-template-columns: 20% 60% 20%;
     margin: -64px 0 0;
     min-height: 100%;
