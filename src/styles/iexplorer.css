@@ -54,15 +54,8 @@ li .carousel-slide {
 	width: 100%;
 }
 .sections {
-	width: 20%;
-}
-.sections-left {
-	float: left;
-}
-.sections-right {
-	float: right;
+	display: none;
 }
 .stream {
-	float: left;
-	width: 60%;
+	width: 100%;
 }
