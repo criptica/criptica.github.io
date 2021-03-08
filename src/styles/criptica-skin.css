@@ -113,7 +113,9 @@ nav {
     text-align: center;
 }
 .stream {
+    display: block;
     margin: 0 auto 128px;
+    width: 100%;
 }
 .stream article {
     background-color: inherit;
@@ -174,6 +176,10 @@ nav {
 
 /* Sections */
 
+.sections {
+    display: block;
+    width: 100%;
+}
 .sections nav {
     position: -webkit-sticky;
     position: sticky;
