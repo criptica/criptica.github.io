@@ -40,3 +40,29 @@ li .carousel-slide {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
 }
+
+/* Grid for old iexplorer */
+
+.streamapp,
+.sections,
+.stream {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.streamapp {
+	width: 100%;
+}
+.sections {
+	width: 20%;
+}
+.sections-left {
+	float: left;
+}
+.sections-right {
+	float: right;
+}
+.stream {
+	float: left;
+	width: 60%;
+}
