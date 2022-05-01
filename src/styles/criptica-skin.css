@@ -141,6 +141,7 @@ nav {
     border-top-right-radius: 24px;
     overflow: hidden;
     width: 100%;
+    opacity: .9;
 }
 .stream article footer,
 .share-box {
@@ -190,10 +191,11 @@ nav {
     }
     .stream-news article h3 {
         font-size: 24px !important;
-        line-height: 24px !important;
+        -webkit-hyphens: none !important;
+        line-height: 28px !important;
         margin: 12px;
         margin-top: -320px;
-        height: 180px;
+        height: 192px;
         overflow: hidden;
     }
     .stream-news article strong {display: block;}
