@@ -171,23 +171,23 @@ nav {
     transform: scale(1.4);
 }
 @media (min-width: 1200px) {
-    .stream {
+    .stream-news {
         display: grid;
         grid-template-columns: 48% 48%;
     }
-    .stream article {
+    .stream-news article {
         margin-left: 12px;
         margin-right: 12px;
         height: 320px;
         overflow: hidden;
     }
-    .stream article img {
+    .stream-news article img {
         opacity: .1;
     }
-    .stream article:hover img {
+    .stream-news article:hover img {
         opacity: .5;
     }
-    .stream article h3 {
+    .stream-news article h3 {
         font-size: 24px !important;
         line-height: 24px !important;
         margin: 12px;
@@ -195,8 +195,8 @@ nav {
         height: 180px;
         overflow: hidden;
     }
-    .stream article strong {display: block;}
-    .stream article:hover strong {
+    .stream-news article strong {display: block;}
+    .stream-news article:hover strong {
         opacity: 0;
     }
 }
