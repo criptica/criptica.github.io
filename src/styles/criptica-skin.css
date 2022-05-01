@@ -176,12 +176,13 @@ nav {
         grid-template-columns: 48% 48%;
     }
     .stream-news article {
-        margin-left: 12px;
-        margin-right: 12px;
+        margin: 12px;
         height: 320px;
         overflow: hidden;
     }
     .stream-news article img {
+        object-fit: cover;
+        height: 320px;
         opacity: .1;
     }
     .stream-news article:hover img {
