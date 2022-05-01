@@ -170,6 +170,36 @@ nav {
 .share-box a:hover svg {
     transform: scale(1.4);
 }
+@media (min-width: 1200px) {
+    .stream {
+        display: grid;
+        grid-template-columns: 48% 48%;
+    }
+    .stream article {
+        margin-left: 12px;
+        margin-right: 12px;
+        height: 320px;
+        overflow: hidden;
+    }
+    .stream article img {
+        opacity: .1;
+    }
+    .stream article:hover img {
+        opacity: .5;
+    }
+    .stream article h3 {
+        font-size: 24px !important;
+        line-height: 24px !important;
+        margin: 12px;
+        margin-top: -320px;
+        height: 180px;
+        overflow: hidden;
+    }
+    .stream article strong {display: block;}
+    .stream article:hover strong {
+        opacity: 0;
+    }
+}
 
 
 /* Sections */
