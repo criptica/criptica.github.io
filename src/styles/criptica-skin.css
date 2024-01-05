@@ -553,7 +553,11 @@ figcaption {
 /* Pagination */
 
 .pagination {
-	margin: 3em auto 1em;
+    border:none;
+    display:block;
+    margin: 64px auto;
+    padding: 32px 0;
+    text-align:center;
 }
 .pagination a {
     border: 2px solid currentColor;
