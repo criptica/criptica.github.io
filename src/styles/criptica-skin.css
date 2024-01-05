@@ -418,6 +418,7 @@ figcaption {
             box-shadow: 0px 0px 6px rgba(0,0,0,.2), inset 0 -32px 24px rgba(255,255,255,0.3);;
     display: block;
     min-height: 180px;
+    overflow:hidden;
     padding: 12px;
 }
 .card-app img {
@@ -428,11 +429,16 @@ figcaption {
     width: 128px;
 }
 .card-app figcaption {
+    color: #ffffff;
     display: block;
     font-size: 32px;
-    margin: 32px 0;
-    position: relative;
-    text-align: left;
+    margin: 32px 0 0;
+    position: absolute;
+    bottom:0;
+    text-align: center;
+}
+.card-app figcaption a {
+    color: #ffffff;
 }
 @media (max-width: 768px) {
     .card-app img {
