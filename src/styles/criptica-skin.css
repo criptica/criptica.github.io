@@ -499,6 +499,7 @@ figcaption {
 }
 .prev-next .blog-paging-control-container .blog-paging-control,
 .prev-next .blog-paging-control-container .blog-paging-control:after {
+    cursor:pointer;
 	display: block;
 	height: 2em;
 	width: 2em;
@@ -530,6 +531,7 @@ figcaption {
 	border: 3px solid currentColor;
 	border-radius: 50%;
     color: currentColor;
+    cursor:pointer;
 	display: block;
 	font-size: 1.2em;
 	font-weight: bold;
